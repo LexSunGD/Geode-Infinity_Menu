@@ -10,7 +10,6 @@
     "version": "1.0.0",
     "name": "Infinity Menu",
     "developer": "LexSunGD",
-    "description": "descripcion",
     "dependencies": [
         {
             "id": "geode.node-ids",
@@ -25,13 +24,11 @@
         },
         "bypass-icons": {
             "name": "Bypass Icon Lock",
-            "description": "Desbloquea todos los iconos, colores y cosméticos de forma visual.",
             "type": "bool",
             "default": true
         },
         "bypass-text": {
             "name": "Bypass Text Limit",
-            "description": "Elimina el límite de caracteres en los campos de texto.",
             "type": "bool",
             "default": false
         },
@@ -39,20 +36,10 @@
             "type": "title",
             "name": "Shortcuts Pause Menu"
         },
-        "leaderboard-pausemenu": {
-            "name": "Leaderboard In Pause Menu",
-            "description": "Muestra un boton en el menu de pausa para abrir los leaderboards del nivel.",
-            "type": "bool",
-            "default": true
-        },
-        "leaderboard-position": {
+        "button-position": {
             "name": "Button Position",
-            "description": "Elige en que menu lateral se colocara el boton de leaderboards.",
             "type": "string",
-            "one-of": [
-                "Right",
-                "Left"
-            ],
+            "choices": ["Right","Left"],
             "default": "Right"
         }
     }
