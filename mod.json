@@ -10,6 +10,7 @@
     "version": "1.0.0",
     "name": "Infinity Menu",
     "developer": "LexSunGD",
+    "description": "Infinity Menu Mod",
     "dependencies": [
         {
             "id": "geode.node-ids",
@@ -39,7 +40,10 @@
         "button-position": {
             "name": "Button Position",
             "type": "string",
-            "choices": ["Right","Left"],
+            "choices": [
+                "Right",
+                "Left"
+            ],
             "default": "Right"
         }
     }
