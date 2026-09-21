@@ -1,50 +1,31 @@
 {
-    "geode": "5.10.1",
-    "gd": {
-        "win": "2.2081",
-        "android": "2.2081",
-        "mac": "2.2081",
-        "ios": "2.2081"
-    },
-    "id": "lexsungd.infinity.menu",
-    "version": "1.0.0",
-    "name": "Infinity Menu",
-    "developer": "LexSunGD",
-    "description": "Infinity Menu Mod",
-    "dependencies": [
-        {
-            "id": "geode.node-ids",
-            "version": "v1.23.3",
-            "importance": "required"
-        }
-    ],
-    "settings": {
-        "bypasses-header": {
-            "type": "title",
-            "name": "Bypasses"
-        },
-        "bypass-icons": {
-            "name": "Bypass Icon Lock",
-            "type": "bool",
-            "default": true
-        },
-        "bypass-text": {
-            "name": "Bypass Text Limit",
-            "type": "bool",
-            "default": false
-        },
-        "pause-menu-header": {
-            "type": "title",
-            "name": "Shortcuts Pause Menu"
-        },
-        "button-position": {
-            "name": "Button Position",
-            "type": "string",
-            "choices": [
-                "Right",
-                "Left"
-            ],
-            "default": "Right"
-        }
-    }
+	"geode": "5.10.1",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "lexsungd.infinity_menu",
+	"version": "1.0.0",
+	"name": "Infinity Menu",
+	"developer": "LexSunGD",
+	"description": "Several modifications in a single geode mod.",
+	"repository": "https://github.com",
+	"tags": ["interface", "enhancement", "utility"],
+	"dependencies": {
+		"geode.node-ids": {
+			"version": "v1.23.3",
+			"importance": "required"
+		}
+	},
+	"settings": {
+		"button-position": {
+			"name": "Button Position",
+			"description": "Choose where to place the leaderboard button.",
+			"type": "string",
+			"default": "Right",
+			"choices": ["Right", "Left"]
+		}
+	}
 }
