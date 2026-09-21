@@ -11,8 +11,6 @@ set(CMAKE_CXX_VISIBILITY_PRESET hidden)
 project(InfinityMenu VERSION 1.0.0)
 
 add_library(${PROJECT_NAME} SHARED
-    src/BypassIcon.cpp
-    src/BypassText.cpp
     src/LeaderboardPause.cpp
     # Add any extra C++ source files here
 )
