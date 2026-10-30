@@ -10,7 +10,7 @@
 	"version": "1.0.0",
 	"name": "Infinity Menu",
 	"developer": "LexSunGD",
-	"description": "Geode mod.",
+	"description": "Geode mod",
 	"repository": "https://github.com",
 	"tags": ["interface", "enhancement", "utility"],
 	"dependencies": {
